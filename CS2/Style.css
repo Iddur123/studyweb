@@ -1,0 +1,239 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    width:100%;
+}
+
+nav {
+    background-color: #333;
+    text-align: center;
+
+
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-item {
+    position: relative;
+    cursor: pointer;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0px 0px;
+}
+
+.sub-menu {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: #333;
+    left: 0;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.sub-menu li {
+    padding: 0.5rem 0;
+}
+
+/* Style the info and subscriptions */
+.info {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.sub-menu:hover .sub-options {
+    display: flex;
+}
+
+.sub-options {
+    display: none;
+    list-style-type: none;
+    float: left;
+    background-color: #444;
+    color: whitesmoke;
+    padding:10px 10px;
+}
+.sub-options:hover {
+    display: none;
+    list-style-type: none;
+    float: left;
+}
+.sub-options li a{
+    border: black solid;
+    border-width: 1px;
+}
+.sub-options li a:hover{
+    background-color: #963333;
+    color: #fff;
+}
+.sub-options li {
+    padding-right: 0px 0;
+}
+
+/* Style the subscriptions */
+.subscriptions {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.subscription {
+    text-align: center;
+    margin: 2rem;
+    border: #333 solid;
+    
+}
+
+.subscription h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.subscription a {
+    display: block;
+    background-color: #963333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+.subscription a:hover {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Style the chatbox */
+#chatbox {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#chatbox a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+.sub-menu li a{
+    padding:10px 10px;
+}
+
+#Log {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+#Log a {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+#Log a:hover{
+    background-color: #963333;
+}
+#chatbox a:hover{
+    background-color: #963333;
+}
+.info{
+    height: 20rem;
+}
+.info h1{
+    padding-top: 8rem;
+}
+.sub-header h1{
+ text-align: center;
+ border-bottom: solid gray 1px
+}
+.side-bar{
+    height: 70%;
+    width:70px;
+    background-color: #8f1212;
+    float:right;
+    position: fixed;
+    color:white;
+    list-style-type: none;
+
+    }
+    .side-bar ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    .side-bar ul:hover{
+        color: white;
+        text-decoration: none;
+    }
+    .side-bar ul li a:hover{
+        text-decoration: none;
+
+    }
+    .side-bar ul{
+        width: 75px;
+        background-color: #963333;
+        padding: 1rem;
+        text-decoration: none;
+        list-style-type: none;
+    }
+.fas:hover{
+    color:#444;
+    cursor:pointer;
+   }
+   .chat h4:hover{
+    color:#444;
+   }
+   .plan h4:hover{
+    color:#444;
+   }   .join h4:hover{
+    color:#444;
+   }
+   .side-bar ul li:hover{
+    color: #444;
+   }
+   .info{
+    background:url('../pic/class.png') no-repeat center/cover;
+    height:560px;
+    margin-top:-22px;
+    color: #000000;
+    font-size: large;
+   }
+   .info span{
+    color: #963333;
+   }
